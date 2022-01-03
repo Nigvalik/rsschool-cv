@@ -24,15 +24,7 @@ header {
     background-color: #e6e6e6;
     max-width: 1200px;
   }
-
-footer {
-    margin: 20px auto;
-    height: 50px;
-    background-color: #e6e6e6;
-    max-width: 1200px;
-    display: flex;
-}
-.nav__list {
+.nav-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -40,6 +32,10 @@ footer {
     padding: 0;
     list-style: none;
 }
+.nav-item a{
+    color:#ff6b08;
+}
+
 .sidebar {
     background: #1e2939;
     width: 370px;
