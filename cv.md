@@ -5,8 +5,8 @@
  * Location: Ukraina, Odessa
  * Phone: +380937108767
  * E-mail: nig.valik@gmail.com
- * GitHub: [ Nigvalik ] (https://github.com/Nigvalik)
- * Linkedin: [ valentin-nigalchuk ] (https://www.linkedin.com/in/   valentin-nigalchuk-004471214)
+ * GitHub: [Nigvalik](https://github.com/Nigvalik/)
+ * Linkedin: [valentin-nigalchuk](https://www.linkedin.com/in/valentin-nigalchuk-004471214/)
 
 # About Me #
 
@@ -29,7 +29,7 @@ function makeNegative(num){
   return num;
   }
 }
-
+```
 # Education #
  
  ### University : Odessa State Ecological University, meteorological engineer
