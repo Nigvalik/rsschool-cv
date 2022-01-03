@@ -4,9 +4,104 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <header> 
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#about-me">About Me</a></li>
+            <li class="nav__item"><a href="#skills">Tech Skills</a></li>
+            <li class="nav__item"><a href="#code-example">Code Example</a></li>
+            <li class="nav__item"><a href="#education">Education</a></li>
+            <li class="nav__item"><a href="#languages">Languages</a></li>
+            <li class="nav__item"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+   <main class="wrapper">
+       <aside class="sidebar">
+           <img class="my-photo" src="./assets/img/photo.jpg" alt="My photo">
+           
+           <section class="contacts-container" id="contact"> 
+                <h3 class="contacts-title">Contacts</h3>
+                <ul>
+                    <li class="contacts-title-type">Location: <a class="contacts-link" href="https://www.google.com/maps/d/viewer?msa=0&mid=1N-249zDzAgwOAW1lFZgJFBzOOTU&ll=46.485038006516255%2C30.739537000000006&z=18">Ukraina, Odessa</a></li>
+                    <li class="contacts-title-type">Phone: <a class="contacts-link" href="tel:+38093710 8767">+38 093 710 87 67</a></li>
+                    <li class="contacts-title-type">E-mail: <a class="contacts-link" href="mailto:nig.valik@gmail.com">nig.valik@gmail.com</a> </li>
+                    <li class="contacts-title-type">GitHub: <a class="contacts-link" href="https://github.com/Nigvalik/">Nigvalik</a></li>
+                    <li class="contacts-title-type">Linkedin: <a class="contacts-link" href="https://www.linkedin.com/in/valentin-nigalchuk-004471214/">valentin-nigalchuk</a></li>
+                <ul>
+            </section>
+       </aside>
+        <div class="about-me-container">
+            <div class="info-container">
+               <h1 class="name">Nigalchuk Valentin</h1>
+               <h2 class="profession">Front-End Developer</h2>
+            </div> 
+            <div class="info-container" id="about-me">
+               <h3 class="about-me-title">About Me</h3>
+               <p  class="description">I want to study the profession of Front-end developer and see my future as a specialist with it.</p>
+            </div>
+            <div class="info-container" id="skills">
+                <h3 class="about-me-title">Tech Skills</h3>
+                <ul>
+                    <li class="tech-skills-item"> 
+                        <span class="tech-skills-text">HTML5</span> 
+                    </li>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">CSS3</span>
+                    </li>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">GIT</span>
+                    </li>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">JavaScript</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="info-container" id="code-example">
+                <h3 class="about-me-title">Code Example</h3>
+            </div>
+            <div class="info-container" id="education">
+                <h3 class="about-me-title">Education</h3>
+                <ol>
+                    <li  class="tech-skills-item"><span class="tech-skills-text">University : Odessa State Ecological University, meteorological engineer</span>
+                    </li> 
+                    <li  class="tech-skills-item"><span class="tech-skills-text">Courses :</span>
+                   </li> 
+                </ol>
+                <ul>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">HTML и CSS на https://htmlacademy.ru</span>
+                    </li>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">JavaScript https://learn.javascript.ru</span>
+                    </li>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">JS, CSS, HTML, Git video courses https://www.udemy.com/course/webdeveloper</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="info-container" id="languages">
+                <h3 class="about-me-title">Languages</h3>
+                <ul>
+                   <li  class="tech-skills-item"><span class="tech-skills-text">Russian/Ukrainian- native speaker</span>
+                   </li> 
+                   <li  class="tech-skills-item"><span class="tech-skills-text">English - A2</span>
+                  </li> 
+                </ul>
+            </div>
+       </div>
+    </main>
+    <footer>
+        <a href="https://github.com/Nigvalik" target="_blank">
+          My GitHub
+        </a>
+      </footer>
 </body>
 </html>
