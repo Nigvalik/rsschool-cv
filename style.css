@@ -1,1 +1,138 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f5f7fa;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.wrapper {
+    background: #fff;
+    display: flex;
+    margin: 20px auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    max-width: 1200px;
+}
+header {
+    margin: 20px auto;
+    height: 50px;
+    background-color: #e6e6e6;
+    max-width: 1200px;
+  }
+
+footer {
+    margin: 20px auto;
+    height: 50px;
+    background-color: #e6e6e6;
+    max-width: 1200px;
+    display: flex;
+}
+.nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.sidebar {
+    background: #1e2939;
+    width: 370px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.my-photo {
+    width: 370px;
+}
+
+.about-me-container {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.contacts-container {
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.contacts-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+}
+
+.contacts-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#9ba0a7;
+}
+.contacts-title-type {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 10px;
+}
+.tech-skills-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #fff
+
+}
+
+.tech-skills-container {
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 55px;
+}
+.tech-skills-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#ff6b08;
+    margin-left: 15px;
+}
+.tech-skills-text {
+    color: #000205;
+}
+
+.profession {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 23px;
+}
+.name{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 89px;
+}
+.description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 24px;
+}
+.info-container {
+    margin-bottom: 65px;
+}
+.about-me-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
 
