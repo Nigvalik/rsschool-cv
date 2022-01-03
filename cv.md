@@ -32,10 +32,10 @@ function makeNegative(num){
 ```
 # Education #
  
- ### University : 
+ ## University : 
  Odessa State Ecological University, meteorological engineer
 
- ### Courses : 
+ ## Courses : 
   * HTML и CSS на [https://htmlacademy.ru/]
   * JavaScript [https://learn.javascript.ru/]
   * JS, CSS, HTML, Git video courses  [https://www.udemy.com/course/webdeveloper/]
